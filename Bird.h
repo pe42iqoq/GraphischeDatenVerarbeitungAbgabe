@@ -1,0 +1,10 @@
+void Wuerfel(GLfloat fSeitenL);
+void Quader(GLfloat fSeitenLX, GLfloat fSeitenLY, GLfloat fSeitenLZ, GLuint texture);
+void beak();
+void tail();
+void Pinkers(GLfloat fSeitenLX, GLfloat fSeitenLY, GLfloat fSeitenLZ);
+void foot();
+void Plane(GLfloat fSeitenLX, GLfloat fSeitenLZ, GLuint texture);
+void cylinder(GLdouble base, GLdouble top, GLdouble height, GLint slices, GLint stacks);
+void sphere(GLdouble radius, GLint slices, GLint stacks);
+void roof();
